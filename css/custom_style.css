@@ -1,0 +1,91 @@
+.hero-banner-two .hero-heading span {
+    color: #080808;
+    position: relative;
+    display: inline-block;
+}
+
+.hero-banner-two .hero-heading span::before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 4px;
+    background: #000;
+    left: 0;
+    bottom: 2px;
+}
+
+.customService-icons{
+    padding: 14px;
+}
+
+.custom-footer-link li{
+    font-size: 16px;
+    color: #515151;
+    margin-bottom: 16px;
+    padding-left: 40px;
+    position: relative;
+}
+
+.custom-footer-link li.custom-li-link1::before{
+    content: url(../images/icon/location.svg);
+    position: absolute;
+    left: 0;
+    top: 5px;
+}
+
+.custom-footer-link li.custom-li-link2::before{
+    content: url(../images/icon/phone.svg);
+    position: absolute;
+    left: 0;
+    top: 5px;
+}
+
+.custom-footer-link li.custom-li-link3::before{
+    content: url(../images/icon/email.svg);
+    position: absolute;
+    left: 0;
+    top: 5px;
+}
+
+.navbar .dropdown-toggle-custom::after{
+    content: "";
+}
+
+.hero-banner-one .illustration-container {
+    position: absolute;
+    right: 0;
+    top: 200px;
+    z-index: -1;
+    max-width: 46%;
+}
+
+.vcamp-footer-one .bg-wrapper {
+    padding: 90px 0 70px;
+    background: #ebebe994;
+    position: relative;
+    z-index: 5;
+}
+
+.theme-menu-two .right-widget .contact-btn:hover{
+    background-color: #0a766e;
+    border: none;
+}
+
+.hero-banner-two{
+    height: 900px;
+}
+
+.vcamp-text-block-one .shape-two {
+    right: 5%;
+    bottom: -25% !important;
+    animation: jumpThree 5s infinite linear;
+}
+
+.vcamp-feature-section-six .text-wrapper p {
+    padding-top: 10px;
+    margin-bottom: 0;
+}
+
+.vcamp-feature-section-six {
+    padding: 165px 0 80px;
+}
